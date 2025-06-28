@@ -86,9 +86,10 @@ plt.show()
 - Pode ser usado como base para gráficos mais complexos.
 ```
 ## 🛠 Tecnologias
-Python
+**[Python](https://www.python.org/)**
 
-Matplotlib
+**[Matplotlib](https://matplotlib.org/stable/)**
+
 
 ## 🦸🏻‍♂️ Autor
  <br>
