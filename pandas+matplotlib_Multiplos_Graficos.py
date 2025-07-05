@@ -28,13 +28,13 @@ plt.grid(axis='x')
 
 # Grafico em linha
 plt.subplot(1,4,4)
-graph_line = dados.groupby('Mês')['Lucro'].mean()
+graph_line = dados.groupby('Mês', sort = False)['Lucro'].mean()
 lucroxmes = graph_line.plot(kind = 'line', marker = 'o', color = 'Green')
 plt.grid(True)
 
 # Grafico em barra
 plt.subplot(1,4,3)
-graph_bar = dados.groupby('Mês')['Vendas'].mean()
+graph_bar = dados.groupby('Mês', sort = False)['Vendas'].mean()
 mesxmes = graph_bar.plot(kind = 'bar')
 plt.xlabel('Vendas Mês x Mês')
 colors = ('green', 'blue','purple','red','orange','yellow')
